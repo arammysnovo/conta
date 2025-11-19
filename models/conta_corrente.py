@@ -1,6 +1,6 @@
 from .conta import Conta
 
-class ContaCorrente(Conta0):
+class ContaCorrente(Conta):
     def __init__(self, numero, titular, saldo=0, limite=500):
         super().__init__(numero, titular, saldo)
         self.limite = limite
